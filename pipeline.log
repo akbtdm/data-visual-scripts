@@ -1,0 +1,84 @@
+2026-05-01 19:01:28,295 [INFO] Loaded 41 rows for analysis
+2026-05-01 19:01:28,298 [INFO] Q1 — Districts ranked by avg price/m2:
+                   Avg_Price_per_m2  Median_Price_per_m2  Listings
+District                                                          
+Алмалинский р-н            993354.0            1023355.0         4
+Медеуский р-н              934111.0             918496.0         4
+Бостандыкский р-н          918257.0             881250.0         8
+Ауэзовский р-н             845833.0             850000.0         3
+Наурызбайский р-н          669521.0             698039.0         7
+Алатауский р-н             629687.0             593425.0        14
+Турксибский р-н            515000.0             515000.0         1
+2026-05-01 19:01:28,300 [INFO] Q2 — Rooms vs Price/m2: Pearson=0.2653, Spearman=0.3436
+2026-05-01 19:01:28,302 [INFO] Q3 — Floor level prices:
+             Avg_Price_KZT  Median_Price_KZT  Listings
+Floor_Level                                           
+Middle          57441154.0        47250000.0        26
+First           33420000.0        28800000.0         5
+Last            31500000.0        31500000.0         2
+2026-05-01 19:01:28,304 [INFO] Q4 — Building types:
+                               Price_KZT_mean  Price_KZT_median  Price_KZT_count  Price_per_m2_mean  Price_per_m2_median  Price_per_m2_count
+Building_Type                                                                                                                               
+Khrushchevka (≤5 floors)           29766667.0        28800000.0                3           583756.0             544444.0                   3
+Mid-rise (6-11 floors)             42243750.0        38250000.0               16           708808.0             678101.0                  16
+Modern High-rise (12+ floors)      64336154.0        57000000.0               13           901181.0             880952.0                  13
+2026-05-01 19:01:28,307 [INFO] Q5 — Top 10 micro-districts by price/m2:
+               Avg_Price_per_m2  Listings
+Microdistrict                            
+мкр Шугыла             574341.0         3
+2026-05-01 19:01:28,308 [INFO] Loaded 41 rows for visualization
+2026-05-01 19:01:28,409 [INFO] Saved charts/1_boxplot_price_by_district.png
+2026-05-01 19:01:28,580 [INFO] Saved charts/2_scatter_area_vs_price.html
+2026-05-01 19:01:28,661 [INFO] Saved charts/2_scatter_area_vs_price.png
+2026-05-01 19:01:28,743 [INFO] Saved charts/3_heatmap_correlation.png
+2026-05-01 19:01:28,790 [INFO] Saved charts/4_bar_avg_price_per_m2_district.png
+2026-05-01 19:01:28,867 [INFO] Saved charts/5_histogram_price_per_m2.png
+2026-05-01 19:01:28,948 [INFO] Saved charts/6_newbuild_bar_mean_price.png
+2026-05-01 19:01:28,990 [INFO] Saved charts/7_newbuild_boxplot_price_per_m2.png
+2026-05-01 19:01:29,023 [INFO] Saved charts/8_newbuild_scatter_area_vs_price.html
+2026-05-01 19:01:29,079 [INFO] Saved charts/8_newbuild_scatter_area_vs_price.png
+2026-05-01 19:01:29,150 [INFO] Saved charts/9_newbuild_stacked_counts_by_district.png
+2026-05-01 19:01:29,233 [INFO] Saved charts/10_newbuild_hist_price_per_m2_overlay.png
+2026-05-01 19:01:29,233 [INFO] All charts saved to 'charts/' (1–10)
+2026-05-01 21:02:53,138 [INFO] Loaded 41 rows for analysis
+2026-05-01 21:02:53,144 [INFO] Q1 — Districts ranked by avg price/m2:
+                   Avg_Price_per_m2  Median_Price_per_m2  Listings
+District                                                          
+Алмалинский р-н            993354.0            1023355.0         4
+Медеуский р-н              934111.0             918496.0         4
+Бостандыкский р-н          918257.0             881250.0         8
+Ауэзовский р-н             845833.0             850000.0         3
+Наурызбайский р-н          669521.0             698039.0         7
+Алатауский р-н             629687.0             593425.0        14
+Турксибский р-н            515000.0             515000.0         1
+2026-05-01 21:02:53,148 [INFO] Q2 — Rooms vs Price/m2: Pearson=0.2653, Spearman=0.3436
+2026-05-01 21:02:53,150 [INFO] Q3 — Floor level prices:
+             Avg_Price_KZT  Median_Price_KZT  Listings
+Floor_Level                                           
+Middle          57441154.0        47250000.0        26
+First           33420000.0        28800000.0         5
+Last            31500000.0        31500000.0         2
+2026-05-01 21:02:53,153 [INFO] Q4 — Building types:
+                               Price_KZT_mean  Price_KZT_median  Price_KZT_count  Price_per_m2_mean  Price_per_m2_median  Price_per_m2_count
+Building_Type                                                                                                                               
+Khrushchevka (≤5 floors)           29766667.0        28800000.0                3           583756.0             544444.0                   3
+Mid-rise (6-11 floors)             42243750.0        38250000.0               16           708808.0             678101.0                  16
+Modern High-rise (12+ floors)      64336154.0        57000000.0               13           901181.0             880952.0                  13
+2026-05-01 21:02:53,156 [INFO] Q5 — Top 10 micro-districts by price/m2:
+               Avg_Price_per_m2  Listings
+Microdistrict                            
+мкр Шугыла             574341.0         3
+2026-05-01 21:02:53,157 [INFO] Loaded 41 rows for visualization
+2026-05-01 21:02:53,256 [INFO] Saved charts/1_boxplot_price_by_district.png
+2026-05-01 21:02:53,424 [INFO] Saved charts/2_scatter_area_vs_price.html
+2026-05-01 21:02:53,506 [INFO] Saved charts/2_scatter_area_vs_price.png
+2026-05-01 21:02:53,589 [INFO] Saved charts/3_heatmap_correlation.png
+2026-05-01 21:02:53,636 [INFO] Saved charts/4_bar_avg_price_per_m2_district.png
+2026-05-01 21:02:53,713 [INFO] Saved charts/5_histogram_price_per_m2.png
+2026-05-01 21:02:53,790 [INFO] Saved charts/6_newbuild_bar_mean_price.png
+2026-05-01 21:02:53,833 [INFO] Saved charts/7_newbuild_boxplot_price_per_m2.png
+2026-05-01 21:02:53,865 [INFO] Saved charts/8_newbuild_scatter_area_vs_price.html
+2026-05-01 21:02:53,923 [INFO] Saved charts/8_newbuild_scatter_area_vs_price.png
+2026-05-01 21:02:53,992 [INFO] Saved charts/9_newbuild_stacked_counts_by_district.png
+2026-05-01 21:02:54,075 [INFO] Saved charts/10_newbuild_hist_price_per_m2_overlay.png
+2026-05-01 21:02:54,075 [INFO] All charts saved to 'charts/' (1–10)
